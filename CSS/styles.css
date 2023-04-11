@@ -108,7 +108,7 @@ div#full #content p#base{
 	color:#2a2c33;
 	 font-family: "natio", verdana;
 	 font-weight: lighter;
-	 font-size: 8px;
+	 font-size: 12px;
 	 letter-spacing: 0.35em;
 	 padding-top: 7px;
 	 padding-left: 10px;
@@ -141,7 +141,7 @@ div#footer {
     width: auto;
     text-align: center;
     font-family: natio, verdana;
-    font-size: 8px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     line-height: 18px;
@@ -155,7 +155,6 @@ a{
 
 #full{
 	background: #85afc3;
-
 	height:48px;
 }
 
@@ -187,7 +186,7 @@ a{
 	 padding-top:7px;
 	 padding-left:10px;
 	 left:0;
-	 width:300px
+	 width:300px;
 }
 
 
