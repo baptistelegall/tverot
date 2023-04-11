@@ -182,7 +182,7 @@ a{
 	color:#2a2c33;
 	 font-family: "natio", verdana;
 	 font-weight:lighter;
-	 font-size:11px	;
+	 font-size:13px	;
 	 letter-spacing:0.35em;
 	 padding-top:7px;
 	 padding-left:10px;
@@ -196,7 +196,7 @@ a{
 	color:#2a2c33;
 	 font-family: "natio", verdana;
 	 font-weight:lighter;
-	 font-size:11px	;
+	 font-size:13px	;
 	 letter-spacing:0.35em;
 	  padding-top:7px;
 	 right:0;
@@ -245,7 +245,7 @@ a#ebay:hover{
 	margin-top:30px;
 	width:auto;
 	padding:10px 0;
-	font-size:11px;
+	font-size:15px;
 	font-weight: bold;
 	letter-spacing:0.35em;
 	 font-family: "natio", verdana;}
@@ -278,7 +278,7 @@ p#appel{
 
 @font-face {
   font-family: "natio";
-  src: url('National_Medium.otff');
+  src: url('National_Medium.otf');
 }
 
 
@@ -290,7 +290,7 @@ p#appel{
 	width:auto;
 	text-align:center;
 	font-family: "natio", verdana;
-	font-size:8px;
+	font-size:13px;
 	text-transform: uppercase;
 	letter-spacing:0.10em;
 	line-height:18px}
