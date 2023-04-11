@@ -19,12 +19,134 @@ body{
 
 
 @media only screen and (max-width: 768px) {
+  html {
+      height: auto;
+  }
   body {
-    background-image: url("../IMG/banniere_ebay_300pourcent.jpg");
+    background-image: url("");
     background-size: cover;
   }
+  div#contentGeneral img {
+    padding-top: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+  img {
+    width: 280px;
+    margin-top: 220px;
+        margin: 10;
+
+  }
+
+div#full #content p#base{
+	float:left;
+	color:#2a2c33;
+	 font-family: "natio", verdana;
+	 font-weight: lighter;
+	 font-size: 11px;
+	 letter-spacing: 0.35em;
+	 padding-top: 7px;
+	 padding-left: 10px;
+	 left: 0;
+	 width: auto;
+}
+div#baseline {
+    color: rgb(42, 44, 51);
+    background: rgb(235, 178, 34);
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 10%;
+    margin-right: 0%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.35em;
+    font-family: natio, verdana;
+}
+#full #content #contentGeneral{
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+div#footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    width: auto;
+    text-align: center;
+    font-family: natio, verdana;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 18px;
+}
 }
 
+
+@media only screen and (max-width: 400px) {
+  html {
+      height: auto;
+  }
+  body {
+    background-image: url("");
+    background-size: cover;
+  }
+  div#contentGeneral img {
+    padding-top: 8px;
+    margin-left: 15%;
+}
+  img {
+    width: 280px;
+    margin-top: 110px;
+        margin: 10;
+
+  }
+
+div#full #content p#base{
+	float:left;
+	color:#2a2c33;
+	 font-family: "natio", verdana;
+	 font-weight: lighter;
+	 font-size: 8px;
+	 letter-spacing: 0.35em;
+	 padding-top: 7px;
+	 padding-left: 10px;
+	 left: 0;
+	 width: auto;
+}
+div#baseline {
+    color: rgb(42, 44, 51);
+    background: rgb(235, 178, 34);
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 10%;
+    margin-right: 0%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.35em;
+    font-family: natio, verdana;
+}
+#full #content #contentGeneral{
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+div#footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    width: auto;
+    text-align: center;
+    font-family: natio, verdana;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 18px;
+}
+}
 
 a{
     text-decoration:none;
@@ -36,8 +158,8 @@ a{
 
 	height:48px;
 }
-	
-	
+
+
 #full2{
     background: #fff;
     width:100%;
@@ -46,7 +168,7 @@ a{
 
 
 #full #content,#contentGeneral{
-	width:980px;
+	width:auto;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -99,7 +221,7 @@ a{
 	text-transform:uppercase;
 	color:#ffffff
 }
-	
+
 #full #content p#baseDroite a:hover{
 	color:#2a2c33;
 }
@@ -127,13 +249,13 @@ a#ebay:hover{
 	font-weight: bold;
 	letter-spacing:0.35em;
 	 font-family: "natio", verdana;}
-	 
+
 img#fleche{
 	float:right;
     padding-right:40%;
-	width:128px
+	width:auto
 }
-	 
+
 
 p#appel{
 	color:#85afc3;
@@ -151,7 +273,7 @@ p#appel{
 #contentGeneral img{
 	margin-left:auto;
 	padding-top:8px;
-	margin-left:28%
+	margin-left:32%
 }
 
 @font-face {
@@ -165,14 +287,14 @@ p#appel{
 	margin-right:auto;
 	text-align:center;
 	margin-top:250px;
-	width:700px;
+	width:auto;
 	text-align:center;
 	font-family: "natio", verdana;
 	font-size:8px;
 	text-transform: uppercase;
 	letter-spacing:0.10em;
 	line-height:18px}
-	
+
 
 
 
