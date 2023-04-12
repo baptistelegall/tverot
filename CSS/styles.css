@@ -24,7 +24,7 @@ body{
     background-size: cover;
   }
 div#contentGeneral #logo {
-    margin-top: 30%;
+    margin-top: 50%;
     width: 65%;
     margin-left: 18%;
 
@@ -91,7 +91,7 @@ div#full #content p#baseDroite{
 	color:#2a2c33;
 	 font-family: "natio", verdana;
 	 font-weight: lighter;
-	 font-size: 8px;
+	 font-size: 12px;
 	 letter-spacing: 0.35em;
 	 padding-top: 7px;
 	 padding-left: 10px;
@@ -194,6 +194,8 @@ a{
 #full{
 	background: #B5C9C5;
 	height:48px;
+	padding-right: 10%;
+	padding-left: 10%;
 }
 
 
@@ -321,8 +323,8 @@ p#appel{
 
 #logo {
     margin-top: 12%;
-    margin-left:27%;
-    width: 45%;
+    margin-left:25.6%;
+    width: 48%;
 }
 #contentGeneral.img{
 	padding-top:8px;
