@@ -11,10 +11,7 @@ body{
     padding:0;
     width: 100%;
     min-height: 100%;
-    background-image: url('../IMG/banniere_ebay_300pourcent.jpg');
-        background-size: 15%;
-        background-repeat: no-repeat;
-  background-position: left top;
+
 }
 
 
@@ -26,11 +23,49 @@ body{
     background-image: url("");
     background-size: cover;
   }
-  div#contentGeneral img {
-    padding-top: 8px;
-    margin-left: 10%;
-    margin-right: 10%;
+div#contentGeneral #logo {
+    margin-top: 30%;
+    width: 65%;
+    margin-left: 18%;
+
 }
+
+div#contentGeneral {
+	    background-image: url('');
+        background-size: 15%;
+        background-repeat: no-repeat;
+  background-position: left top;
+      position:fixed;
+    padding:0;
+    margin:48px 0 0 0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+}
+
+div#footer{
+		margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:auto;
+  position:fixed;
+    padding:0;
+    margin:48px 0 0 0;
+
+    bottom:0;
+    left: 25%;
+    right: 25%;
+    	text-align:center;
+	font-family: "crafter", verdana;
+	font-size:13px;
+	text-transform: uppercase;
+	letter-spacing:0.10em;
+	line-height:18px}
+
+
   img {
     width: 280px;
     margin-top: 220px;
@@ -43,13 +78,27 @@ div#full #content p#base{
 	color:#2a2c33;
 	 font-family: "natio", verdana;
 	 font-weight: lighter;
-	 font-size: 11px;
+	 font-size: 8px;
 	 letter-spacing: 0.35em;
 	 padding-top: 7px;
 	 padding-left: 10px;
 	 left: 0;
 	 width: auto;
 }
+
+div#full #content p#baseDroite{
+	float:left;
+	color:#2a2c33;
+	 font-family: "natio", verdana;
+	 font-weight: lighter;
+	 font-size: 8px;
+	 letter-spacing: 0.35em;
+	 padding-top: 7px;
+	 padding-left: 10px;
+	 left: 0;
+	 width: auto;
+}
+
 div#baseline {
     color: rgb(42, 44, 51);
     background: rgb(235, 178, 34);
@@ -69,18 +118,7 @@ div#baseline {
 	margin-left:auto;
 	margin-right:auto;
 }
-div#footer {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 300px;
-    width: auto;
-    text-align: center;
-    font-family: natio, verdana;
-    font-size: 8px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    line-height: 18px;
-}
+
 }
 
 
@@ -140,7 +178,7 @@ div#footer {
     margin-top: 180px;
     width: auto;
     text-align: center;
-    font-family: natio, verdana;
+    font-family: "crafter", verdana;
     font-size: 8px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -154,7 +192,7 @@ a{
  }
 
 #full{
-	background: #85afc3;
+	background: rgb(181,201,197);
 	height:48px;
 }
 
@@ -173,7 +211,19 @@ a{
 }
 
 #contentGeneral {
-    margin-top: 15%;
+	    background-image: url('../IMG/banniere_ebay_300pourcent.jpg');
+        background-size: 15%;
+        background-repeat: no-repeat;
+  background-position: left top;
+      position:fixed;
+    padding:0;
+    margin:48px 0 0 0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
 }
 
 #full #content p#base{
@@ -201,7 +251,7 @@ a{
 	 right:0;
 }
 
-#facebook{float:right;padding-top:7px;margin-left:20px;transition: all 0.5s;}
+#facebook{float:right;padding-top:7px; margin-right: 20px; transition: all 0.5s;}
 
 #facebook:hover,#pinterest:hover{opacity:0.7;}
 
@@ -238,11 +288,11 @@ a#ebay:hover{
 #baseline{
 	color:#2a2c33;
 	background:#ebb222;
-	margin-left:20%;
-	margin-right:20%;
+	margin-left:22%;
+	margin-right:22%;
 	text-align:center;
 	margin-top:30px;
-	width:auto;
+	width:55%;
 	padding:10px 0;
 	font-size:15px;
 	font-weight: bold;
@@ -269,8 +319,12 @@ p#appel{
 	 font-family: "natio", verdana;
 	 text-transform:uppercase;line-height:20px}
 
-#contentGeneral img{
-	margin-left:auto;
+#logo {
+    margin-top: 12%;
+    margin-left:28%;
+    width: 40%;
+}
+#contentGeneral.img{
 	padding-top:8px;
 	margin-left:32%
 }
@@ -280,15 +334,26 @@ p#appel{
   src: url('Crafter-Regular.otf');
 }
 
+@font-face {
+  font-family: "crafter";
+  src: url('National_Medium.otf');
+}
+
+
 
 #footer{
 		margin-left:auto;
 	margin-right:auto;
 	text-align:center;
-	margin-top:250px;
 	width:auto;
-	text-align:center;
-	font-family: "natio", verdana;
+  position:fixed;
+    padding:0;
+    margin:48px 0 0 0;
+    bottom:0;
+    left: 33%;
+    right: 33%;
+    	text-align:center;
+	font-family: "crafter", verdana;
 	font-size:13px;
 	text-transform: uppercase;
 	letter-spacing:0.10em;
