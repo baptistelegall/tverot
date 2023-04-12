@@ -192,7 +192,7 @@ a{
  }
 
 #full{
-	background: rgb(181,201,197);
+	background: #B5C9C5;
 	height:48px;
 }
 
@@ -276,7 +276,7 @@ a{
 }
 
 
-a#ebay{color: white;
+a#ebay{color: black;
 text-decoration:none;transition: all 0.5s;
 }
 
