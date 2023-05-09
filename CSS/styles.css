@@ -284,12 +284,12 @@ text-decoration:none;transition: all 0.5s;
 
 
 a#ebay:hover{
-	color: #85afc3;
+	color: #aec8c3;
 }
 
 #baseline{
-	color:#2a2c33;
-	background:#ebb222;
+	color: #2a2c33;
+	background: #ebb222;
 	margin-left:27%;
 	margin-right:22%;
 	text-align:center;
@@ -309,7 +309,7 @@ img#fleche{
 
 
 p#appel{
-	color:#85afc3;
+	color:#aec8c3;
 	margin-left:auto;
 	text-align:center;
 	margin-top:auto;
