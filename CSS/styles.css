@@ -78,7 +78,7 @@ div#full #content p#base{
 	color:#2a2c33;
 	 font-family: "natio", verdana;
 	 font-weight: lighter;
-	 font-size: 8px;
+	 font-size: 12px;
 	 letter-spacing: 0.35em;
 	 padding-top: 7px;
 	 padding-left: 10px;
@@ -97,6 +97,8 @@ div#full #content p#baseDroite{
 	 padding-left: 10px;
 	 left: 0;
 	 width: auto;
+	 position: relative;
+	 z-index: 9999;
 }
 
 div#baseline {
@@ -233,7 +235,7 @@ a{
 	color:#2a2c33;
 	 font-family: "natio", verdana;
 	 font-weight:lighter;
-	 font-size:13px	;
+	 font-size:15px	;
 	 letter-spacing:0.35em;
 	 padding-top:7px;
 	 padding-left:10px;
