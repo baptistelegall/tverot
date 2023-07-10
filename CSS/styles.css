@@ -94,11 +94,9 @@ div#full #content p#baseDroite{
 	 font-size: 12px;
 	 letter-spacing: 0.35em;
 	 padding-top: 7px;
-	 padding-left: 10px;
-	 left: 0;
 	 width: auto;
 	 position: relative;
-	 z-index: 9999;
+	 z-index: 9998;
 }
 
 div#baseline {
