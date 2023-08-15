@@ -29,6 +29,10 @@ div#contentGeneral #logo {
     margin-left: 18%;
 
 }
+#full{
+	background: #aec8c3;
+	height:48px;
+}
 
 div#contentGeneral {
 	    background-image: url('');
@@ -81,9 +85,9 @@ div#full #content p#base{
 	 font-size: 12px;
 	 letter-spacing: 0.35em;
 	 padding-top: 7px;
-	 padding-left: 10px;
 	 left: 0;
-	 width: auto;
+	 padding-left:0px;
+	 margin-left: 0%;
 }
 
 div#full #content p#baseDroite{
@@ -105,7 +109,7 @@ div#baseline {
     text-align: center;
     margin-top: 30px;
     width: 300px;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-right: 0%;
     padding: 10px;
     font-size: 15px;
@@ -140,6 +144,10 @@ div#baseline {
         margin: 10;
 
   }
+  #full{
+	background: #aec8c3;
+	height:48px;
+}
 
 div#full #content p#base{
 	float:left;
@@ -149,7 +157,6 @@ div#full #content p#base{
 	 font-size: 12px;
 	 letter-spacing: 0.35em;
 	 padding-top: 7px;
-	 padding-left: 10px;
 	 left: 0;
 	 width: auto;
 }
@@ -159,7 +166,6 @@ div#baseline {
     text-align: center;
     margin-top: 30px;
     width: 300px;
-    margin-left: 10%;
     margin-right: 0%;
     padding: 10px;
     font-size: 15px;
@@ -184,6 +190,14 @@ div#footer {
     letter-spacing: 0.1em;
     line-height: 18px;
 }
+#full #content p#base{
+	float:left;
+	color:#2a2c33;
+	 font-family: "natio", verdana;
+	 font-weight:lighter;
+	 font-size:15px	;
+	 letter-spacing:0.35em;
+}
 }
 
 a{
@@ -194,8 +208,6 @@ a{
 #full{
 	background: #aec8c3;
 	height:48px;
-	padding-right: 10%;
-	padding-left: 10%;
 }
 
 
@@ -233,12 +245,11 @@ a{
 	color:#2a2c33;
 	 font-family: "natio", verdana;
 	 font-weight:lighter;
-	 font-size:15px	;
+	 font-size:13px	;
 	 letter-spacing:0.35em;
 	 padding-top:7px;
 	 padding-left:10px;
-	 left:0;
-	 width:300px;
+	 margin-left: 10%;
 }
 
 
@@ -251,20 +262,12 @@ a{
 	 letter-spacing:0.35em;
 	  padding-top:7px;
 	 right:0;
+	 margin-right: 3%;
 }
 
-#facebook{float:right;padding-top:7px; margin-right: 20px; transition: all 0.5s;}
+.facebook{float:right;padding-top:7px; padding-right: 10px; transition: all 0.5s;}
 
-#facebook:hover,#pinterest:hover{opacity:0.7;}
-
-#instagram{float:right;padding-top:7px;margin-left:20px;transition: all 0.5s;}
-
-#instagram:hover,#pinterest:hover{opacity:0.7;}
-
-#pinterest{float:right;padding-top:7px;margin-left:20px;transition: all 0.5s;}
-
-#full #content p#baseDroite a img{
-}
+.facebook:hover,#pinterest:hover{opacity:0.7;}
 
 
 #full #content p#baseDroite a{
