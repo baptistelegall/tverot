@@ -87,7 +87,7 @@ div#full #content p#base{
 	 padding-top: 7px;
 	 left: 0;
 	 padding-left:0px;
-	 margin-left: 0%;
+	 margin-left: 10%;
 }
 
 div#full #content p#baseDroite{
@@ -263,6 +263,8 @@ a{
 	  padding-top:7px;
 	 right:0;
 	 margin-right: 3%;
+	 margin-left: 3%;
+
 }
 
 .facebook{float:right;padding-top:7px; padding-right: 10px; transition: all 0.5s;}
